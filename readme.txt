@@ -1,4 +1,4 @@
-=== Instamojo button ===
+=== WooCommerce Instamojo ===
 Contributors: instamojo
 Donate link: https://www.instamojo.com
 Tags: commerce, e-commerce, ecommerce, online store, sell digital downloads, sell online, shop, store, wordpress ecommerce, WordPress shopping cart, sell event tickets, sell subscriptions, sell memberships, sell physical goods, payments, easy payments, payments button, widget
@@ -36,7 +36,7 @@ This section describes how to install the plugin and get it working.
 
 Once the plugin is installed and activated, you will be able to access a new menu under settings called Instamojo.
 
-= How to use the plugin? =
+= How to use the plugin? =`
 
 1. Make sure you've installed the WooCommerece plugin and it is activated.
 2. Click on settings under the plugin and first of all check "Enable Instamojo Payment". Make sure the Currency is set to "Indian Rupee(Rs.)" under WooCommerce's General settings tab.
@@ -48,9 +48,9 @@ Once the plugin is installed and activated, you will be able to access a new men
 8. Save the Instamojo settings page in WooCommerce.
 9. If you haven't already, add some products in WooCommerce.
 
-  If your website's URL is "http://www.example.com/", you need to paste the following into the "Custom redirection URL":
+  If your website's URL is "http://www.example.com/", you need to paste the following into the **"Custom redirection URL"**:
 
-  "http://www.example.com/?wc-api=wc_instamojo"
+  **"http://www.example.com/?wc-api=wc_instamojo"**
 
 == Changelog ==
 
