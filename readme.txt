@@ -1,4 +1,4 @@
-**Notice:**: This plugin not updated here anymore. For latest changes go to: https://plugins.trac.wordpress.org/browser/woo-instamojo/
+**Notice:** This plugin is not updated here anymore. For latest changes go to: https://plugins.trac.wordpress.org/browser/woo-instamojo/
 
 
 === WooCommerce Instamojo ===
