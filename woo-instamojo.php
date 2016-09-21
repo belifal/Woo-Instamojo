@@ -1,16 +1,15 @@
 <?php
 /*
-Plugin Name: WooCommerce - Instamojo
+Plugin Name: Instamojo Payment Gateway for WooCommerce
 Plugin URI: http://www.instamojo.com
 Description: Instamojo Payment Gateway for WooCommerce. Instamojo lets you collect payments instantly.
-Version: 0.0.3
-Author: Instamojo
+Version: 1.0.0
+Author: instamojo
 Email: support@instamojo.com
 Author URI: http://www.instamojo.com/
-License: GNU General Public License v3.0
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+License: MIT
+License URI: https://opensource.org/licenses/MIT
 */
-
 
 add_action('plugins_loaded', 'woocommerce_instamojo_init', 0);
 define('instamojo_imgdir', WP_PLUGIN_URL . "/" . plugin_basename(dirname(__FILE__)) . '/assets/img/');
