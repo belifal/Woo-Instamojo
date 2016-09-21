@@ -29,15 +29,21 @@ This section describes how to install the plugin and get it working.
 
 Once the plugin is installed and activated, you will be able to access a new menu under settings called "Instamojo Payment Gateway for WooCommerce".
 
-== Configuring the plugin ==
+== Configuration ==
+
+== Screenshots ==
+
+1. Activate WooCommerce and Instamojo Payment Gateway for WooCommerce.
+2. Configure Instamojo Payment Gateway for WooCommerce.
+3. Checkout screen when using Instamojo Payment Gateway for WooCommerce.
 
 Now go to WooCommerce's settings tab (left sidebar on your WordPress dashboard) --> Settings --> Checkout --> Instamojo.
 
-- **Enable/Disable** - Check this to enable this plugin.
-- **Title** - The plugin name that buyer sees during checkout.
-- **Description** - Additional description related to this checkout method, for example: "Pay using CC/DB/NB and wallets".
-- **Client ID** and **Client Secret** - Client Secret And Client ID can be generated on the [Integrations page](https://www.instamojo.com/integrations/). Related support article: [How Do I Get My Client ID And Client Secret?](https://support.instamojo.com/hc/en-us/articles/212214265-How-do-I-get-my-Client-ID-and-Client-Secret-)
-- **Test Mode** - If enabled you can use our [Sandbox environment](https://support.instamojo.com/hc/en-us/articles/208485675-Test-or-Sandbox-Account) to test payments. Note that in this case you should use Client Secret and Client ID from the test account not production.
+1. **Enable/Disable** - Check this to enable this plugin.
+2. **Title** - The plugin name that buyer sees during checkout.
+3. **Description** - Additional description related to this checkout method, for example: "Pay using CC/DB/NB and wallets".
+4. **Client ID** and **Client Secret** - Client Secret And Client ID can be generated on the [Integrations page](https://www.instamojo.com/integrations/). Related support article: [How Do I Get My Client ID And Client Secret?](https://support.instamojo.com/hc/en-us/articles/212214265-How-do-I-get-my-Client-ID-and-Client-Secret-)
+5. **Test Mode** - If enabled you can use our [Sandbox environment](https://support.instamojo.com/hc/en-us/articles/208485675-Test-or-Sandbox-Account) to test payments. Note that in this case you should use Client Secret and Client ID from the test account not production.
 
 == Changelog ==
 
