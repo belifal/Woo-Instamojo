@@ -1,4 +1,4 @@
-=== Instamojo Payment Gateway for WooCommerce ===
+=== WooCommerce Instamojo ===
 Contributors: instamojo
 Donate link: https://www.instamojo.com/
 Tags: commerce, e-commerce, ecommerce, online store, sell digital downloads, sell online, shop, store, wordpress ecommerce, WordPress shopping cart, sell event tickets, sell subscriptions, sell memberships, sell physical goods, payments, easy payments, payments button, widget
