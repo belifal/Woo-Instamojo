@@ -17,7 +17,7 @@ if($stored_payment_req_id!= $payment_request_id)
 	insta_log("Given Payment request id not matched with  stored payment request id: $stored_payment_req_id ");
 	wp_redirect(get_site_url());
 }
-include_once "lib/instamojo.php";
+include_once "lib/Instamojo.php";
 try{
 	$pgInstamojo = new WP_Gateway_Instamojo();
 	$testmode       = 'yes' === $pgInstamojo->get_option('testmode', 'no');

@@ -36,7 +36,7 @@ Class WP_Gateway_Instamojo extends WC_Payment_Gateway{
 	
 	public function process_payment($orderId)
 	{
-		include_once "lib/instamojo.php";
+		include_once "lib/Instamojo.php";
 		$this->log("Creating Instamojo Order for order id: $orderId");
 		$this->log("Client ID: $this->client_id | Client Secret: $this->client_secret  | Testmode: $this->testmode ");
 		
