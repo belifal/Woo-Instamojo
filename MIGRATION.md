@@ -1,7 +1,7 @@
 Migrating from version 0.1.3 to 1.0.x
 ==
 
-The version 1.x is a major change from 0.1.3 and will affect your payment if the migration is not done properly. The advantages of the new plugins are:
+The version 1.x is a major change from 0.1.3 and will affect your payments if the migration is not done properly. The advantages of the new plugin are:
 
   - Easier configuration
   - Better error handling
