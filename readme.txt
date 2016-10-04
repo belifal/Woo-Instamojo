@@ -31,12 +31,6 @@ Once the plugin is installed and activated, you will be able to access a new men
 
 == Configuration ==
 
-== Screenshots ==
-
-1. Activate WooCommerce and Instamojo Payment Gateway for WooCommerce.
-2. Configure Instamojo Payment Gateway for WooCommerce.
-3. Checkout screen when using Instamojo Payment Gateway for WooCommerce.
-
 Now go to WooCommerce's settings tab (left sidebar on your WordPress dashboard) --> Settings --> Checkout --> Instamojo.
 
 1. **Enable/Disable** - Check this to enable this plugin.
@@ -45,7 +39,28 @@ Now go to WooCommerce's settings tab (left sidebar on your WordPress dashboard) 
 4. **Client ID** and **Client Secret** - Client Secret And Client ID can be generated on the [Integrations page](https://www.instamojo.com/integrations/). Related support article: [How Do I Get My Client ID And Client Secret?](https://support.instamojo.com/hc/en-us/articles/212214265-How-do-I-get-my-Client-ID-and-Client-Secret-)
 5. **Test Mode** - If enabled you can use our [Sandbox environment](https://support.instamojo.com/hc/en-us/articles/208485675-Test-or-Sandbox-Account) to test payments. Note that in this case you should use Client Secret and Client ID from the test account not production.
 
+== Screenshots ==
+
+1. Activate WooCommerce and Instamojo Payment Gateway for WooCommerce.
+2. Configure Instamojo Payment Gateway for WooCommerce.
+3. Settings page after configuration.
+4. Checkout screen when using Instamojo Payment Gateway for WooCommerce.
+
 == Changelog ==
 
 = 1.0.0 =
 * Initial release.
+
+== Upgrade Notice ==
+
+= 1.0.0 =
+
+The version 1.x is a major change from 0.1.3 and will affect your payments if the migration is not done properly. The advantages of the new plugin are:
+
+* Easier configuration
+* Better error handling
+* No sensitive data in the URL
+* Faster checkouts
+* Test mode
+
+Please check the detailed migration guide here: [Migrating from version 0.1.3 to 1.0.x](https://github.com/Instamojo/Woo-Instamojo/blob/master/MIGRATION.md)
