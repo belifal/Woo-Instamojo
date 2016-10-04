@@ -29,7 +29,7 @@ This section describes how to install the plugin and get it working.
 
 Once the plugin is installed and activated, you will be able to access a new menu under settings called "Instamojo Payment Gateway for WooCommerce".
 
-== Configuration ==
+*Configuration*
 
 Now go to WooCommerce's settings tab (left sidebar on your WordPress dashboard) --> Settings --> Checkout --> Instamojo.
 
