@@ -13,7 +13,7 @@ Currently the configuration page of our plugin looks like this:
 
 ![enter image description here](http://i.imgur.com/U0XjleL.png)
 
-After updating to the newer version 1.0.x it would look like:
+After updating to the newer version 1.0.x it will look like:
 
 ![enter image description here](http://i.imgur.com/q1aRaa5.png)
 
