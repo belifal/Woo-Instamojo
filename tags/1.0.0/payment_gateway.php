@@ -55,12 +55,16 @@ Class WP_Gateway_Instamojo extends WC_Payment_Gateway{
 			$this->log("Data sent for creating order ".print_r($api_data,true));
 			
 			$response = $api->createOrderPayment($api_data);
-			$this->log("Response  from server on creating order".print_r($response,true));
+			$this->log("Response from server on creating order".print_r($response,true));
 			if(isset($response->order))
 			{
 				$url = $response->payment_options->payment_url;
 				WC()->session->set( 'payment_request_id' ,  $response->order->id);	
-				die( json_encode(array("result"=>"success","redirect"=>$url)));
+				// die( json_encode(array("result"=>"success", "redirect"=>$url)));
+				return array(
+                    'result' => 'success', 
+                    'redirect' => $url
+                );
 			}
 		
 		}catch(CurlException $e){
