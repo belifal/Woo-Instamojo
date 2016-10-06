@@ -23,7 +23,7 @@ We believe every business idea deserves to be on the Internet to grow. But very 
 This section describes how to install the plugin and get it working.
 
 1. Make sure you've installed the [WooCommerce plugin](https://wordpress.org/plugins/woocommerce/) and it is activated. Without WooCommerce this plugin won't work.
-2. Search for "Instamojo Payment Gateway for WooCommerce" on the WordPress Plugin directory or [download it](http://downloads.wordpress.org/plugin/woocommerce-instamojo.zip).
+2. Search for "Instamojo Payment Gateway for WooCommerce" on the WordPress Plugin directory or [download it](https://downloads.wordpress.org/plugin/woo-instamojo.zip).
 3. Install the plugin.
 4. Activate the plugin through the 'Plugins' menu in WordPress.
 
@@ -38,6 +38,11 @@ Now go to WooCommerce's settings tab (left sidebar on your WordPress dashboard) 
 3. **Description** - Additional description related to this checkout method, for example: "Pay using CC/DB/NB and wallets".
 4. **Client ID** and **Client Secret** - Client Secret And Client ID can be generated on the [Integrations page](https://www.instamojo.com/integrations/). Related support article: [How Do I Get My Client ID And Client Secret?](https://support.instamojo.com/hc/en-us/articles/212214265-How-do-I-get-my-Client-ID-and-Client-Secret-)
 5. **Test Mode** - If enabled you can use our [Sandbox environment](https://support.instamojo.com/hc/en-us/articles/208485675-Test-or-Sandbox-Account) to test payments. Note that in this case you should use Client Secret and Client ID from the test account not production.
+
+== Support ==
+
+For any issue send us an email to support@instamojo.com and share the log file. Its location is `wp-content/uploads/wc-logs/`.
+Inside `wc-logs` there’s going to be file whose name starts with `instamojo`.
 
 == Screenshots ==
 

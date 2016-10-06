@@ -39,6 +39,11 @@ Now go to WooCommerce's settings tab (left sidebar on your WordPress dashboard) 
 4. **Client ID** and **Client Secret** - Client Secret And Client ID can be generated on the [Integrations page](https://www.instamojo.com/integrations/). Related support article: [How Do I Get My Client ID And Client Secret?](https://support.instamojo.com/hc/en-us/articles/212214265-How-do-I-get-my-Client-ID-and-Client-Secret-)
 5. **Test Mode** - If enabled you can use our [Sandbox environment](https://support.instamojo.com/hc/en-us/articles/208485675-Test-or-Sandbox-Account) to test payments. Note that in this case you should use Client Secret and Client ID from the test account not production.
 
+== Support ==
+
+For any issue send us an email to support@instamojo.com and share the log file. Its location is `wp-content/uploads/wc-logs/`.
+Inside `wc-logs` there’s going to be file whose name starts with `instamojo`.
+
 == Screenshots ==
 
 1. Activate WooCommerce and Instamojo Payment Gateway for WooCommerce.

@@ -51,6 +51,12 @@ The version 1.x is a major change from 0.1.3 and will affect your payments if th
 
 Please check the detailed migration guide here: [Migrating from version 0.1.3 to 1.0.x](https://github.com/Instamojo/Woo-Instamojo/blob/master/MIGRATION.md)
 
+Support
+-------
+
+For any issue send us an email to support@instamojo.com and share the log file. Its location is `wp-content/uploads/wc-logs/`.
+Inside `wc-logs` there’s going to be file whose name starts with `instamojo`.
+
 Changelog
 ---------
 
