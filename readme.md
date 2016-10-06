@@ -20,7 +20,7 @@ Installation
 This section describes how to install the plugin and get it working.
 
 1. Make sure you've installed the [WooCommerce plugin](https://wordpress.org/plugins/woocommerce/) and it is activated. Without WooCommerce this plugin won't work.
-2. Search for "Instamojo Payment Gateway for WooCommerce" on the WordPress Plugin directory or [download it](http://downloads.wordpress.org/plugin/woocommerce-instamojo.zip).
+2. Search for "Instamojo Payment Gateway for WooCommerce" on the WordPress Plugin directory or [download it](https://downloads.wordpress.org/plugin/woo-instamojo.zip).
 3. Install the plugin.
 4. Activate the plugin through the 'Plugins' menu in WordPress.
 
