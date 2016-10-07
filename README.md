@@ -60,6 +60,10 @@ Inside `wc-logs` there’s going to be file whose name starts with `instamojo`.
 Changelog
 ---------
 
+ **1.0.1** 
+
+* Fixed issue related to getting payment status.
+
  **1.0.0** 
 
 This version(1.x) is a major change from 0.1.3.
