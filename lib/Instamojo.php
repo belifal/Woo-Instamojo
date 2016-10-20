@@ -89,7 +89,7 @@ Class Instamojo
 		if(isset($result->id) and $result->id)
 			return $result;
 		else
-			throw new Exception("Unable to Fetch Payment Request id:'$id' Server Responds ".print_R($result,true));
+			throw new Exception("Unable to Fetch Payment Request id:'$id' Server Responds ".print_r($result,true));
 	}
 
 	public function getPaymentStatus($payment_id, $payments){
