@@ -19,7 +19,7 @@ Class Instamojo
 	{
 		$this->curl = new Curl();
 		$this->curl->setCacert(dirname(__FILE__) . "/cacert.pem");
-		$ t his->client_id 		= $client_id;
+		$this->client_id 		= $client_id;
 		$this->client_secret	= $client_secret;
 
 		if($test_mode)
