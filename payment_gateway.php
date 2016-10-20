@@ -79,7 +79,6 @@ Class WP_Gateway_Instamojo extends WC_Payment_Gateway{
 			die(json_encode($json));
 		}catch(ValidationException $e){
 			$this->log("Validation Exception Occured with response ".print_r($e->getResponse(), true));
-			$this->log("An error occurred on line " . $e->getLine() . " with message " .  $e->getMessage() . " and traceback: " . $e->getTraceAsString());
 			$errors_html = "<ul class=\"woocommerce-error\">\n\t\t\t";
 			foreach( $e->getErrors() as $error)
 			{
