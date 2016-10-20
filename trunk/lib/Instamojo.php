@@ -18,7 +18,7 @@ Class Instamojo
 	 function __construct($client_id,$client_secret,$test_mode)
 	{
 		$this->curl = new Curl();
-		$this->curl->setCacert(dirname(__FILE__) . "/cacert.pem");
+		$this->curl->setCacert(dirname(__FILE__) . DIRECTORY_SEPARATOR . "cacert.pem");
 		$this->client_id 		= $client_id;
 		$this->client_secret	= $client_secret;
 
