@@ -60,11 +60,15 @@ Inside `wc-logs` there’s going to be file whose name starts with `instamojo`.
 Changelog
 ---------
 
- **1.0.1** 
+**1.0.2**
+
+* Replaced `__dir__` with `dirname(__FILE__)` to support PHP versions older than 5.3.0.
+
+**1.0.1**
 
 * Fixed issue related to getting payment status.
 
- **1.0.0** 
+**1.0.0** 
 
 This version(1.x) is a major change from 0.1.3.
 * We have now switched from product link based approach to Integrations API.
