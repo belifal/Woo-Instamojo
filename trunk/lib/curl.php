@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__. DIRECTORY_SEPARATOR ."CurlException.php";
+include dirname(__FILE__). DIRECTORY_SEPARATOR ."CurlException.php";
 class Curl
 {
 	private $ch;
@@ -167,7 +167,7 @@ class Curl
 	
 	public function __toString(){
 		return "Requesting  '$this->url' url using  '$this->requestMethod' method".PHP_EOL .
-				"and Data:".print_R($this->data,true).PHP_EOL .
+				"and Data:".print_r($this->data,true).PHP_EOL .
 				"Headers are : ".print_r($this->headers,true).PHP_EOL .
 				"ErrorMessage(if any) :".$this->error. PHP_EOL .
 				"with Response Code:".$this->responseCode;

@@ -4,8 +4,8 @@
  * used to manage Instamojo API calls
  * 
  */
-include __DIR__.DIRECTORY_SEPARATOR."curl.php";
-include __DIR__.DIRECTORY_SEPARATOR."ValidationException.php";
+include dirname(__FILE__) . DIRECTORY_SEPARATOR . "curl.php";
+include dirname(__FILE__) . DIRECTORY_SEPARATOR . "ValidationException.php";
 Class Instamojo
 {
 	private $api_endpoint;
@@ -18,7 +18,7 @@ Class Instamojo
 	 function __construct($client_id,$client_secret,$test_mode)
 	{
 		$this->curl = new Curl();
-		$this->curl->setCacert(__DIR__."/cacert.pem");
+		$this->curl->setCacert(dirname(__FILE__) . "/cacert.pem");
 		$this->client_id 		= $client_id;
 		$this->client_secret	= $client_secret;
 
@@ -89,7 +89,15 @@ Class Instamojo
 		if(isset($result->id) and $result->id)
 			return $result;
 		else
-			throw new Exception("Unable to Fetch Payment Request id:'$id' Server Responds ".print_R($result,true));
+			throw new Exception("Unable to Fetch Payment Request id:'$id' Server Responds ".print_r($result,true));
+	}
+
+	public function getPaymentStatus($payment_id, $payments){
+		foreach($payments as $payment){
+		    if($payment->id == $payment_id){
+			    return $payment->status;
+		    }
+		}
 	}
 	
 }
