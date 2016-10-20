@@ -59,7 +59,7 @@ Class WP_Gateway_Instamojo extends WC_Payment_Gateway{
 			if(isset($response->order))
 			{
 				$url = $response->payment_options->payment_url;
-				WC()->session->set( 'payment_request_id' ,  $response->order->id);	
+				WC()->session->set( 'payment_request_id',  $response->order->id);	
 				// die( json_encode(array("result"=>"success", "redirect"=>$url)));
 				return array(
                     'result' => 'success', 
@@ -68,7 +68,7 @@ Class WP_Gateway_Instamojo extends WC_Payment_Gateway{
 			}
 		
 		}catch(CurlException $e){
-			$this->log((String)$e);
+			$this->log("An error occurred on line " . $e->getLine() . " with message " .  $e->getMessage() . " and traceback: " . $e->getTraceAsString());
 			$json = array(
 				"result"=>"failure",
 				"messages"=>"<ul class=\"woocommerce-error\">\n\t\t\t<li>".$e->getMessage()."<\/li>\n\t<\/ul>\n",
@@ -78,7 +78,8 @@ Class WP_Gateway_Instamojo extends WC_Payment_Gateway{
 				
 			die(json_encode($json));
 		}catch(ValidationException $e){
-			$this->log("Validation Exception Occured with response ".print_R($e->getResponse(),true));
+			$this->log("Validation Exception Occured with response ".print_r($e->getResponse(), true));
+			$this->log("An error occurred on line " . $e->getLine() . " with message " .  $e->getMessage() . " and traceback: " . $e->getTraceAsString());
 			$errors_html = "<ul class=\"woocommerce-error\">\n\t\t\t";
 			foreach( $e->getErrors() as $error)
 			{
@@ -96,7 +97,7 @@ Class WP_Gateway_Instamojo extends WC_Payment_Gateway{
 		}
 		catch(Exception $e){
 			
-			$this->log( $e->getMessage());
+			$this->log("An error occurred on line " . $e->getLine() . " with message " .  $e->getMessage() . " and traceback: " . $e->getTraceAsString());
 			$json = array(
 				"result"=>"failure",
 				"messages"=>"<ul class=\"woocommerce-error\">\n\t\t\t<li>".$e->getMessage()."<\/li>\n\t<\/ul>\n",
