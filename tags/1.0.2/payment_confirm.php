@@ -29,7 +29,10 @@ try{
 	$response = $api->getOrderById($payment_request_id);
 	insta_log("Response from server: ".print_r($response,true));
 	
-	$payment_status = $response->payments[0]->status;
+	$payment_status = $api->getPaymentStatus($payment_id, $response->payments);
+
+	insta_log("Payment status for $payment_id is $payment_status");
+
 	if($payment_status === "successful" OR  $payment_status =="failed" )
 	{
 		
