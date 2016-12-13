@@ -60,6 +60,10 @@ Inside `wc-logs` there’s going to be file whose name starts with `instamojo`.
 Changelog
 ---------
 
+**1.0.3**
+
+* Better error messages(with links) and logging. 
+
 **1.0.2**
 
 * Replaced `__dir__` with `dirname(__FILE__)` to support PHP versions older than 5.3.0.
