@@ -9,7 +9,7 @@ We believe every business idea deserves to be on the Internet to grow. But very 
 
 For more info : https://www.instamojo.com/
 
-![enter image description here](https://raw.githubusercontent.com/lubusonline/Woo-Instamojo/wp.org-assets/assets/banner-1880x609.jpg)
+![enter image description here](https://raw.githubusercontent.com/Instamojo/Woo-Instamojo/master/assets/banner-1880x609.jpg)
 
 >**Note:** If you think code can be improved or have any suggestion/issue feel free to send a PR or [open an issue](https://github.com/Instamojo/Woo-Instamojo/issues).
 
