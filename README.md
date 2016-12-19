@@ -60,6 +60,10 @@ Inside `wc-logs` there’s going to be file whose name starts with `instamojo`.
 Changelog
 ---------
 
+**1.0.4**
+
+* Updated supported WordPress version to 4.7.
+
 **1.0.3**
 
 * Better error messages(with links) and logging. 
