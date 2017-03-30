@@ -30,13 +30,13 @@ return array(
 			),
 			'client_id' => array(
 				'title' => __( 'Client ID*', 'instamojo' ),
-				'type' => 'text',
+				'type' => 'password',
 				'description' => __( 'Your Instamojo Client ID available on your instamojo account', 'instamojo' ),
 				'desc_tip'      => true,
 			),
 			'client_secret' => array(
 				'title' => __( 'Client Secret*', 'woocommerce' ),
-				'type' => 'text',
+				'type' => 'password',
 				'description' => __( 'Your Instamojo Client Secret available on your instamojo account', 'woocommerce' ),
 				'desc_tip'      => true,
 			),
